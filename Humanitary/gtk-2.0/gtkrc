@@ -380,7 +380,6 @@ style "murrine-sidebar" {
 		textstyle                   = 1
 		listviewstyle               = 0
 	}
-
 }
 
 style "murrine-tasklist" = "murrine-wide" {}
@@ -504,7 +503,7 @@ style "pixmap-sidebar-handle-left" {
 ##############
 
 class "GtkWidget"                                style "murrine-default"
-class "GtkWindow*"                               style "pixmap-resize-grip"
+# class "GtkWindow*"                               style "pixmap-resize-grip" # DISABLED
 
 class "GtkToolbar"                               style "murrine-toolbar"
 class "GtkHandleBox"                             style "murrine-toolbar"
@@ -555,8 +554,8 @@ widget_class "*<GtkMenuItem>.*.<GtkScale>"      style "murrine-scale"
 widget_class "*.<GtkFrame>.<GtkLabel>"          style "murrine-frame-title"
 widget_class "*.<GtkTreeView>*"                 style "murrine-treeview"
 
-widget_class "*GtkHPaned"                       style "pixmap-paned"
-widget_class "*GtkVPaned"                       style "pixmap-paned"
+# widget_class "*GtkHPaned"                       style "pixmap-paned" # DISABLED
+# widget_class "*GtkVPaned"                       style "pixmap-paned" # DISABLED
 
 widget_class "*<GtkProgress>"                   style "murrine-progressbar"
 widget_class "*<GtkProgressBar>"                style "murrine-progressbar"

@@ -1,0 +1,10 @@
+.xfce4-panel.background button.toggle:checked,
+.xfce4-panel.background button:hover {
+  background-color: shade(#3B3B3B, 0.85);
+  background-image: linear-gradient(to bottom,
+								  shade (#3B3B3B, 0.85),
+                                  shade (#3B3B3B, 1)
+                                  );
+  border-radius: 0px;
+  border: 1px solid #2B2B2B;
+}

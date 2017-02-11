@@ -46,7 +46,7 @@
 @define-color tooltip_fg_color #FFF;
 
 
-@define-color panel_bg_color shade(@base_color, 0.8);
+@define-color panel_bg_color shade(#3B3B3B, 0.85);
 @define-color panel_fg_color @fg_color;
 
 @define-color internal_element_color mix(@text_color, @base_color, 0.4);

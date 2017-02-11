@@ -45,8 +45,8 @@
 @define-color tooltip_bg_color #000;
 @define-color tooltip_fg_color #FFF;
 
-/*Panel*/
-@define-color panel_bg_color shade (#4C4039, 0.9);
+/* Panel */
+@define-color panel_bg_color shade(#3B3B3B, 0.85);
 @define-color panel_fg_color @bg_color;
 
 @define-color internal_element_color mix(@text_color, @base_color, 0.4);
@@ -80,3 +80,4 @@
 @define-color insensitive_fg_color #a7aba7;
 
 @import url("gtk-widgets.css");
+@import url("xfce4.css");

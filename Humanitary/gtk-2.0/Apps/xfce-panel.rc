@@ -4,7 +4,7 @@ style "elementary-panel"
 	xthickness		= 1
 	ythickness		= 0
 
-	bg_pixmap[NORMAL]	= "Apps/xfce-panel/panel-dark.png" # Disable for normal panel backgrounds.
+	# bg_pixmap[NORMAL]	= "Apps/xfce-panel/panel-dark.png" # Disable for normal panel backgrounds.
 
 	fg[NORMAL]				= "#ffffff"
 	fg[ACTIVE]				= "#ffffff"

@@ -1,3 +1,11 @@
+# Humanitary with XFCE fixes
+
+- Panel color fixes.
+- Panel gtk3 indicators not equal, but very near the theme.
+- Some handlers are disabled.
+
+# Original README
+
 # Humanitary Theme
 
 A fork of the [elementary GTK theme](https://launchpad.net/egtk) using the grey & brown palettes of old-school Ubuntu themes for a bit of nostaligia.
